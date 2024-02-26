@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://AKASH-LAPTOP:8761/eureka
+  instance:
+    hostname: AKASH-LAPTOP
+    registerWithEureka: true
+    fetchRegistry: true
+    preferIpAddress: false
